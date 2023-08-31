@@ -6,7 +6,7 @@
     {url: "lzbox.us.to", port: "3077", name: "BoxPVP Server"},
     {url: "lochost", port: "25556", name: "SkyBlock Server"},
     {url: "lochost", port: "25556", name: "OneBlock Server"},
-    {url: "185.207.164.1", port: "34241", name: "Private Server"}
+    {url: "lzsv.us.to", port: "34241", name: "Private Server"}
   ];
   getServerStatus();
   function getServerStatus() {
