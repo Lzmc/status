@@ -1,6 +1,6 @@
 (function() {
   let servers = [
-    {url: "lochost", port: "25556", name: "Proxy Server"},
+    {url: "128.199.206.169", port: "19930", name: "Proxy Server"},
     {url: "lzbox.us.to", port: "3064", name: "Lobby Server"},
     {url: "g2.moonodes.net", port: "25892", name: "Survival Server"},
     {url: "lzbox.us.to", port: "3077", name: "BoxPVP Server"},
