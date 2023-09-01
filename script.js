@@ -5,7 +5,7 @@
     {url: "g2.moonodes.net", port: "25892", name: "Survival Server"},
     {url: "lzbox.us.to", port: "3077", name: "BoxPVP Server"},
     {url: "lochost", port: "25556", name: "SkyBlock Server"},
-    {url: "lochost", port: "25556", name: "OneBlock Server"},
+    {url: "lzsv.us.to", port: "21958", name: "OneBlock Server"},
     {url: "lzsv.us.to", port: "34241", name: "Private Server"}
   ];
   getServerStatus();
