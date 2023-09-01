@@ -31,7 +31,7 @@
 }
 .name {
   margin-left: 10px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .btn {
   margin-right: 5px;
@@ -45,7 +45,7 @@ button {
   margin: 10px;
 }
 .online, .offline, span {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .all {
   position: relative;
@@ -60,7 +60,7 @@ button {
   z-index: 1;
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border: 1px solid rgba(255, 255, 255, 0.475);
 }
 .menu center h2 {
