@@ -44,7 +44,7 @@ button {
 #server_cards {
   margin: 10px;
 }
-.online, .offline, span {
+.online, .offline, .card-body {
   color: #ffffff;
 }
 .all {
