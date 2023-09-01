@@ -42,11 +42,11 @@
         $(`#favicon${i}`).attr('src', api.favicon);
       }
       let serverCount = servers.length;
-      $('#count').html(`>> ${serverCount} Servers.`);
+      $('#count').html(`${serverCount} Servers`);
       let onlineCount = $('.online').length;
       let offlineCount = $('.offline').length;
-      $('#summary-one').html(`>> ${onlineCount} Servers.`);
-      $('#summary-two').html(`>> ${offlineCount} Servers.`);
+      $('#summary-one').html(`${onlineCount} Servers`);
+      $('#summary-two').html(`${offlineCount} Servers`);
     });
   }
 })();
