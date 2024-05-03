@@ -2,40 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World Wait</title>
-    <style>
-        body, html {
-            height: 100%;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+    <title>Mekong Legacy MC</title>
+    <!-- font awesome cdn  -->
+    <script src="https://kit.fontawesome.com/46b7ceee20.js" crossorigin="anonymous"></script>
 
-        .container {
-            text-align: center;
-        }
-
-        .loader {
-            border: 8px solid #f3f3f3;
-            border-radius: 50%;
-            border-top: 8px solid #3498db;
-            width: 50px;
-            height: 50px;
-            animation: spin 1s linear infinite;
-            margin: 20px auto;
-        }
-
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-    </style>
+    <!-- custom css  -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="loader"></div>
+    <!-- home page  -->
+    <div class="home-page">
+        <!-- header section  -->
+        <section class="header-section">
+            <!-- header logo -->
+            <div class="header-logo">
+                <p>Mekong Legacy MC<span>.</span></p>
+            </div>
+            <div class="header-nav">
+                <!-- mobile navigation icon  -->
+                <div class="mobile-nav-icon">
+                    <i class="fa-solid fa-bars" id="mobileNavIcon"></i>
+                </div>
+                <!-- header navigation list -->
+                <ul class="header-nav-list" id="headerNavList">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="../about/index.html">About</a></li>
+                    <li><a href="../register/index.html">Status</a></li>
+                    <li><a href="../creater/index.html">Creater</a></li>
+                </ul>
+                <!-- theme change icon  -->
+                <div class="theme-change">
+                    <i class="fa-solid fa-moon" id="themeChangeIcon"></i>
+                </div>
+            </div>
+        </section>
+        <!-- hero section  -->
+        <section class="hero-section" id="heroSection">
+            <!-- hero content  -->
+            <div class="hero-content" >
+                <p class="content-header">
+                    Welcome to <span>Mekong Legacy MC</span><br>Join <span>Our Discord.</span>
+                </p>
+                <p class="content-body">Click Discord Button For Join My Our Discord.</p>
+                <div class="hero-btn">
+                    <a href="#">
+                        <button class="resume-btn">Discord</button>
+                    </a>
+                </div>
+            </div>
+        </section>
     </div>
+    <!-- custom js file  -->
+    <script src="js/index.js"></script>
 </body>
 </html>
